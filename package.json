@@ -1,0 +1,29 @@
+{
+  "name": "ragremake",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Remake HTML5/JS 1:1 of Flash Ragdoll Volleyball",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "format": "biome format --write .",
+    "lint": "biome lint .",
+    "check": "biome check --write ."
+  },
+  "dependencies": {
+    "howler": "^2.2.4",
+    "pixi-filters": "^6.1.5",
+    "pixi.js": "^8.6.0",
+    "planck": "^1.4.2"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.4.16",
+    "@types/howler": "^2.2.12",
+    "typescript": "^5.7.0",
+    "vite": "^6.0.0"
+  },
+  "packageManager": "pnpm@10.33.2+sha512.a90faf6feeab71ad6c6e57f94e0fe1a12f5dcc22cd754db40ae9593eb6a3e0b6b12e3540218bb37ae083404b1f2ce6db2a4121e979829b4aff94b99f49da1cf8"
+}
