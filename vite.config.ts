@@ -1,7 +1,7 @@
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  base: "./",
+  base: "/ragdoll-volleyball-remake/",
   server: {
     port: 5173,
     open: true,
